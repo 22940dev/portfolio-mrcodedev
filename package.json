@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://gitlab.com/mrcodedev/mrcodedev-site/issues"
   },
-  "homepage": "https://gitlab.com/mrcodedev/mrcodedev-site#readme"
+  "homepage": "https://gitlab.com/mrcodedev/mrcodedev-site#readme",
+  "devDependencies": {
+    "husky": "^4.3.8"
+  }
 }
