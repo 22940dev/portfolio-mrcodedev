@@ -1,7 +1,7 @@
 {
   "name": "mrcodedev-site",
   "version": "1.0.0",
-  "description": "Site of MrCodedev: Blog and portfolio",
+  "description": "Site of MrCodedev: blog and portfolio",
   "main": "index.js",
   "scripts": {
     "push": "git push && git push github",
