@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "push": "git push && git push github",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\""
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "echo \"[🐕 Husky] doing pre-commit...\""
+      "pre-commit": "echo \"🐕 [Husky] doing pre-commit...\" && npm run test"
     }
   }
 }
