@@ -1,3 +1,3 @@
-# mrcodedev-blog
+# mrcodedev-site
 
-Creating my personal blog
+Site of MrCodedev: Blog and portfolio
