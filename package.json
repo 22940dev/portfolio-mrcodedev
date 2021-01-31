@@ -4,6 +4,7 @@
   "description": "Site of MrCodedev: Blog and portfolio",
   "main": "index.js",
   "scripts": {
+    "push": "git push && git push github",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
