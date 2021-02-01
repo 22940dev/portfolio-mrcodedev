@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "push": "git push && git push github",
-    "test": "echo \"Error: no test specified\""
+    "test": "echo \"Tests isnt ready now :(\""
   },
   "repository": {
     "type": "git",
@@ -31,7 +31,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "echo \"🐕 [Husky] doing pre-commit...\"",
+      "pre-commit": "echo \"🐕 [Husky] doing pre-commit...\" && npm test",
       "commit-msg": "echo \"🐕 [Husky] doing commit-msg...\" && commitlint --env HUSKY_GIT_PARAMS"
 
     }

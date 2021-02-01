@@ -1,3 +1,3 @@
 # mrcodedev-site
 
-Site of MrCodedev: Blog and portfolio
+Site of MrCodedev: Blog and portfolio.
