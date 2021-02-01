@@ -31,7 +31,9 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "echo \"🐕 [Husky] doing pre-commit...\" && npm run test"
+      "pre-commit": "echo \"🐕 [Husky] doing pre-commit...\"",
+      "commit-msg": "echo \"🐕 [Husky] doing commit-msg...\" && commitlint --env HUSKY_GIT_PARAMS"
+
     }
   }
 }
