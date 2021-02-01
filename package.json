@@ -4,7 +4,7 @@
   "description": "Site of MrCodedev: blog and portfolio",
   "main": "index.js",
   "scripts": {
-    "git-push": "npm run gitlab && npm run github",
+    "push": "npm run gitlab && npm run github",
     "test": "echo \"🤨 Tests isnt ready now...\"",
     "gitlab": "echo \"🚚 [GitLab] Pushing into GitLab...\" && git push",
     "github": "echo \"🚚 [GitHub] Pushing into GitHub...\" && git push github"
