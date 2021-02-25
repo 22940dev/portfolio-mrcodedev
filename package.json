@@ -7,10 +7,10 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "push": "npm run gitlab && npm run github",
+    "push": "npm run github && npm run gitlab",
     "test": "echo \"🤨 Tests isnt ready now...\"",
-    "gitlab": "echo \"🚚 [GitLab] Pushing into GitLab...\" && git push",
-    "github": "echo \"🚚 [GitHub] Pushing into GitHub...\" && git push github"
+    "github": "echo \"🚚 [GitHub] Pushing into GitHub...\" && git push github",
+    "gitlab": "echo \"🚚 [GitLab] Pushing into GitLab...\" && git push"
   },
   "repository": {
     "type": "git",
@@ -26,9 +26,9 @@
   "author": "MrCodeDev",
   "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/mrcodedev/mrcodedev-site/issues"
+    "url": "https://github.com/mrcodedev/mrcodedev-site/issues"
   },
-  "homepage": "https://gitlab.com/mrcodedev/mrcodedev-site#readme",
+  "homepage": "https://github.com/mrcodedev/mrcodedev-site#readme",
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
