@@ -4,6 +4,7 @@ import styles from './layout.module.css'
 import utilStyles from '../../styles/utils.module.css'
 import Link from 'next/link'
 import Nav from '../nav/nav'
+import Footer from '../footer/footer'
 
 
 const name = 'MrCodeDev'
@@ -64,6 +65,7 @@ export default function Layout({ children, home }) {
         )}
       </header>
       <main>{children}</main>
+      <Footer />
     </div>
   )
 }
